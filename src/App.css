@@ -6,7 +6,8 @@
  /*Header styles*/
  header {
      background-color: var(--bg-color);
-     height: 100vh;
+     height: 10vh;
+     display: flex;
  }
 
  /*Nav styles*/
@@ -29,14 +30,19 @@
  }
 
  /*Header intro styles*/
+ .home-main-container {
+     background-color: var(--bg-color);
+     height: 90vh;
+ }
+
  .intro {
-     color: var(--text-color);
      display: flex;
      justify-content: space-between;
      width: 70%;
      margin: auto;
      height: 60%;
      align-items: center;
+     color: var(--text-color);
  }
 
  .intro-text a {
