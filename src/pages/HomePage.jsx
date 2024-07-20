@@ -3,11 +3,7 @@ import HomeContent from '../components/UI/HomeContent'
 
 function HomePage() {
     return (
-        <>
-            <Header />
-            <HomeContent />
-        </>
-
+        <HomeContent />
     )
 }
 
