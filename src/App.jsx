@@ -1,9 +1,15 @@
-import HomePage from './components/HomePage'
-import About from './components/About'
+//Added code here
+import { Outlet } from 'react-router-dom';
+import HomePage from './pages/HomePage'
 import '../src/App.css'
 
+
 function App() {
-    return <HomePage />
+    //WORKING COE
+    // return <HomePage />
+    //Added code here
+
+    return <Outlet />
 }
 
 export default App
