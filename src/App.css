@@ -68,4 +68,35 @@
  /*btn styles*/
 
 
+ /*about-me section styles*/
+
+ .about-me-container {
+     height: 100vh;
+     background-color: var(--bg-color);
+     color: var(--text-color);
+ }
+
+ .about-me-container .about-intro {
+     text-align: center;
+     padding-top: 50px
+ }
+
+ .about-me-container .about-intro h2 {
+     font-size: 2rem;
+ }
+
+ .about-me-container .about-intro p {
+     font-size: 1.8rem
+ }
+
+ .tech-container {
+     display: flex;
+     width: 70%;
+     margin: auto;
+     height: 50%;
+     align-items: center;
+ }
+
+
+
  /*Light purple: #BB86FC; */
