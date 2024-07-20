@@ -1,9 +1,17 @@
-import HomePage from './components/HomePage'
-import About from './components/About'
+//Added code here
+import { Outlet } from 'react-router-dom';
+import Header from './components/UI/Header';
 import '../src/App.css'
 
+
 function App() {
-    return <HomePage />
+    return (
+        <>
+            <Header />
+            <Outlet />
+        </>
+    )
+
 }
 
 export default App
