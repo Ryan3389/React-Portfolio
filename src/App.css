@@ -124,4 +124,29 @@
      resize: none;
  }
 
+ /*Resume section styles*/
+ .resume-section {
+     height: 90vh;
+     background-color: var(--bg-color);
+     color: var(--text-color);
+ }
+
+ .resume-container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 50px 0;
+ }
+
+ .skills-container {
+     display: flex;
+     justify-content: center;
+     gap: 50px;
+     text-align: center;
+ }
+
+ .skills-container li {
+     list-style: none;
+ }
+
  /*Light purple: #BB86FC; */
