@@ -24,8 +24,8 @@ const Contact = () => {
     return (
         <section className='form-section'>
             <div className="form-container">
-                <h1>Contact Me</h1>
-                <p>Fill out the form below to connect</p>
+                <h1>Lets Connect</h1>
+                <p>Fill out the form below to get in touch</p>
                 <form ref={form} onSubmit={sendEmail}>
                     <div className="input-div">
                         <label>Name</label>
