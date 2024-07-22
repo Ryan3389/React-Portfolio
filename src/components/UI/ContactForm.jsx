@@ -8,8 +8,8 @@ const Contact = () => {
         e.preventDefault();
 
         emailjs
-            .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, {
-                publicKey: 'YOUR_PUBLIC_KEY',
+            .sendForm(SERVICE_ID, TEMPLATE_ID, form.current, {
+                publicKey: PUBLIC_KEY,
             })
             .then(
                 () => {
