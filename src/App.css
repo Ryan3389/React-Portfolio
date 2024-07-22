@@ -45,7 +45,18 @@
      color: var(--text-color);
  }
 
- .intro-text a {
+ .home-btn-container {
+     width: 100%;
+     text-align: center;
+ }
+
+ /* .intro-text a {
+     margin: 0px 10px;
+     text-decoration: none;
+     font-size: 1.1rem;
+ } */
+
+ .intro-container a {
      margin: 0px 10px;
      text-decoration: none;
      font-size: 1.1rem;
@@ -64,6 +75,7 @@
  .intro-name {
      margin: 0;
  }
+
 
  /*btn styles*/
 
@@ -103,6 +115,7 @@
      height: 90vh;
      background-color: var(--bg-color);
      color: var(--text-color);
+     padding-top: 75px;
  }
 
  .form-container {
@@ -118,17 +131,40 @@
  .input-div input,
  textarea {
      width: 100%;
+     background-color: var(--text-color);
+     border-radius: 7px;
+     padding: 5px 10px;
+     margin: 5px;
  }
 
  .input-div textarea {
      resize: none;
  }
 
+ .send-btn {
+     background-color: #00ffffbe;
+     box-shadow: 2px 2px 2px 2px #00ffff34;
+     padding: 8px 16px;
+     border-radius: 5px;
+     border: none;
+     font-weight: 600;
+     font-size: 1.2rem;
+ }
+
+
  /*Resume section styles*/
  .resume-section {
      height: 90vh;
      background-color: var(--bg-color);
      color: var(--text-color);
+ }
+
+ .resume-section p {
+     font-size: 1.2rem;
+ }
+
+ .resume-section h3 {
+     font-size: 2rem;
  }
 
  .resume-container {
@@ -142,11 +178,39 @@
      display: flex;
      justify-content: center;
      gap: 50px;
+ }
+
+ .skill {
+     border: 2px solid #00ffffbe;
+     box-shadow: 2px 2px 2px 2px #00ffff34;
+     padding: 10px 20px;
+     border-radius: 10px;
+     width: 25%;
+ }
+
+ .skill h3 {
      text-align: center;
  }
 
  .skills-container li {
      list-style: none;
  }
+
+ .skills-intro {
+     width: 70%;
+     margin: auto;
+ }
+
+ .download-btn {
+     background-color: #00ffffbe;
+     box-shadow: 2px 2px 2px 2px #00ffff34;
+     padding: 8px 16px;
+     border-radius: 5px;
+     border: none;
+     font-weight: 600;
+     font-size: 1.2rem;
+ }
+
+
 
  /*Light purple: #BB86FC; */
