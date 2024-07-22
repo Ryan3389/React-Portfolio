@@ -1,6 +1,8 @@
+import DownloadResume from '../components/UI/DownloadResume'
+
 function Resume() {
     return (
-        <h1>Resume Page</h1>
+        <DownloadResume />
     )
 }
 
