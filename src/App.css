@@ -98,5 +98,30 @@
  }
 
 
+ /*Contact form styles*/
+ .form-section {
+     height: 90vh;
+     background-color: var(--bg-color);
+     color: var(--text-color);
+ }
+
+ .form-container {
+     width: 30%;
+     margin: auto;
+ }
+
+ .form-container h1,
+ p {
+     text-align: center;
+ }
+
+ .input-div input,
+ textarea {
+     width: 100%;
+ }
+
+ .input-div textarea {
+     resize: none;
+ }
 
  /*Light purple: #BB86FC; */
