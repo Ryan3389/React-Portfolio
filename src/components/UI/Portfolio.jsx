@@ -13,6 +13,7 @@ function PortfolioSection() {
                         <h2>Weather Dashboard</h2>
                         <p>This app leverages the Open Weather API to deliver real-time weather updates and a 5-day forecast for any city and country. Key features include search by city, comprehensive weather data, added search history to check weather updates quickly.</p>
                         <a target='_blank' href="https://ryan3389.github.io/Weather-Forecast-App/">Check it out</a>
+                        <a target='_blank' href="https://github.com/Ryan3389/Weather-Forecast-App">GitHub Repository</a>
                     </div>
                 </article>
                 <article className="project-container">
@@ -29,6 +30,7 @@ function PortfolioSection() {
                         <h2>Note Tracker</h2>
                         <p>Note Tracker is an intuitive app designed to help you manage your notes efficiently. Write down any note, which will then be saved and displayed. Click it again to edit, or delete.</p>
                         <a target='_blank' href='https://note-tracker-777s.onrender.com/'>Check it out</a>
+                        <a target='_blank' href="https://github.com/Ryan3389/Note-Tracker">GitHub Repository</a>
                     </div>
                 </article>
                 <article className="project-container">
@@ -37,6 +39,7 @@ function PortfolioSection() {
                         <h2>Employee Payroll Tracker</h2>
                         <p>This app is designed to help manage an employee payroll. Simply add the employee name, and salary to see the table updated. Be sure to checkout the console in dev tools to view additional data such as average salary.</p>
                         <a target='_blank' href='https://ryan3389.github.io/Employee-Payroll-Tracker/'>Check it out</a>
+                        <a target='_blank' href="https://github.com/Ryan3389/Employee-Payroll-Tracker">GitHub Repository</a>
                     </div>
                 </article>
                 <article className="project-container">
@@ -45,6 +48,7 @@ function PortfolioSection() {
                         <h2>Original Portfolio</h2>
                         <p>Checkout my original portfolio. Although there is only one project displayed, this portfolio showcases my progress throughout the past 6 months upon completing the University of Toronto Coding Bootcamp</p>
                         <a target='_blank' href='https://ryan3389.github.io/Ryan-Cuthbert-Portfolio/#home'>Check it out</a>
+                        <a target='_blank' href="https://github.com/Ryan3389/Ryan-Cuthbert-Portfolio">GitHub Repository</a>
                     </div>
                 </article>
             </div>

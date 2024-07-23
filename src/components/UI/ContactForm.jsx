@@ -8,8 +8,8 @@ const Contact = () => {
         e.preventDefault();
 
         emailjs
-            .sendForm(process.env.SERVICE_ID, process.env.TEMPLATE_ID, form.current, {
-                publicKey: process.env.PUBLIC_KEY,
+            .sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, form.current, {
+                publicKey: import.meta.env.VITE_PUBLIC_KEY,
             })
             .then(
                 () => {
@@ -29,15 +29,15 @@ const Contact = () => {
                 <form ref={form} onSubmit={sendEmail}>
                     <div className="input-div">
                         <label>Name</label>
-                        <input type="text" name="from_name" />
+                        <input type="text" name="from_name" required />
                     </div>
                     <div className="input-div">
                         <label>Email</label>
-                        <input type="email" name="email" />
+                        <input type="email" name="email" required />
                     </div>
                     <div className="input-div">
                         <label>Message</label>
-                        <textarea name="message" />
+                        <textarea name="message" required />
                     </div>
                     <input type="submit" value="Send" className='send-btn' />
                 </form>
