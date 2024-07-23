@@ -4,8 +4,11 @@
  }
 
  /*Header styles*/
+ /*ADDED COLORS*/
  header {
-     background-color: var(--bg-color);
+     /* background-color: var(--bg-color); */
+     background-color: #2C3E50;
+     color: var(--text-color);
      height: 10vh;
      display: flex;
  }
@@ -16,7 +19,7 @@
      justify-content: space-between;
      width: 70%;
      margin: auto;
-     color: var(--text-color);
+     /* color: var(--text-color); */
      font-size: 1.3rem
  }
 
@@ -30,9 +33,11 @@
  }
 
  /*Header intro styles*/
+ /*ADDED COLORS*/
  .home-main-container {
-     background-color: var(--bg-color);
-     height: 90vh;
+     /* background-color: var(--bg-color); */
+     background-color: #ECF0F1;
+     height: 80vh;
  }
 
  .intro {
@@ -42,7 +47,8 @@
      margin: auto;
      height: 60%;
      align-items: center;
-     color: var(--text-color);
+     /* color: var(--text-color) */
+     color: #34495E;
  }
 
  .home-btn-container {
@@ -50,11 +56,10 @@
      text-align: center;
  }
 
- /* .intro-text a {
-     margin: 0px 10px;
-     text-decoration: none;
-     font-size: 1.1rem;
- } */
+ .home-btn-container a {
+     color: #2980B9;
+ }
+
 
  .intro-container a {
      margin: 0px 10px;
@@ -74,6 +79,16 @@
 
  .intro-name {
      margin: 0;
+ }
+
+ .intro-img .profile-img {
+     border-radius: 50px;
+     /* height: 100px;
+     width: 100px; */
+ }
+
+ .intro-img {
+     margin-top: 100px;
  }
 
 
@@ -112,9 +127,9 @@
 
  /*Contact form styles*/
  .form-section {
-     height: 90vh;
-     background-color: var(--bg-color);
-     color: var(--text-color);
+     height: 80vh;
+     background-color: #ECF0F1;
+     color: #34495E;
      padding-top: 75px;
  }
 
@@ -132,6 +147,7 @@
  textarea {
      width: 100%;
      background-color: var(--text-color);
+     border-color: #BDC3C7;
      border-radius: 7px;
      padding: 5px 10px;
      margin: 5px;
@@ -142,8 +158,8 @@
  }
 
  .send-btn {
-     background-color: #00ffffbe;
-     box-shadow: 2px 2px 2px 2px #00ffff34;
+     background-color: #1ABC9C;
+     /* box-shadow: 2px 2px 2px 2px #00ffff34; */
      padding: 8px 16px;
      border-radius: 5px;
      border: none;
@@ -151,12 +167,15 @@
      font-size: 1.2rem;
  }
 
+ .send-btn:hover {
+     background-color: #16A085;
+ }
 
  /*Resume section styles*/
  .resume-section {
-     height: 90vh;
-     background-color: var(--bg-color);
-     color: var(--text-color);
+     height: 80vh;
+     background-color: #ECF0F1;
+     color: #34495E;
  }
 
  .resume-section p {
@@ -171,7 +190,7 @@
      display: flex;
      flex-direction: column;
      align-items: center;
-     padding: 50px 0;
+     padding: 30px 0;
  }
 
  .skills-container {
@@ -181,8 +200,8 @@
  }
 
  .skill {
-     border: 2px solid #00ffffbe;
-     box-shadow: 2px 2px 2px 2px #00ffff34;
+     border: 2px solid #BDC3C7;
+     /* box-shadow: 2px 2px 2px 2px #00ffff34; */
      padding: 10px 20px;
      border-radius: 10px;
      width: 25%;
@@ -202,8 +221,8 @@
  }
 
  .download-btn {
-     background-color: #00ffffbe;
-     box-shadow: 2px 2px 2px 2px #00ffff34;
+     background-color: #1ABC9C;
+     /* box-shadow: 2px 2px 2px 2px #00ffff34; */
      padding: 8px 16px;
      border-radius: 5px;
      border: none;
@@ -211,17 +230,22 @@
      font-size: 1.2rem;
  }
 
+ .download-btn:hover {
+     background-color: #16A085;
+ }
+
+ /*portfolio page styles*/
  .projects-section {
-     background-color: var(--bg-color);
-     color: var(--text-color);
+     background-color: #ECF0F1;
+     color: #34495E;
      min-height: 100vh;
      padding-bottom: 50px;
  }
 
  .project-container {
      display: flex;
-     border: 2px solid #00ffffbe;
-     box-shadow: 2px 2px 2px 2px #00ffff34;
+     border: 2px solid #BDC3C7;
+     /* box-shadow: 2px 2px 2px 2px #00ffff34; */
      margin-bottom: 50px;
  }
 
@@ -245,6 +269,30 @@
      width: 135px;
      height: 135px;
      align-self: center;
+ }
+
+ .project-container a {
+     text-decoration: none;
+     color: #2980B9
+ }
+
+ /*ADDED COLOR*/
+ footer {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     background-color: #2C3E50;
+     color: var(--text-color);
+     /* background-color: var(--bg-color);
+     color: var(--text-color); */
+     height: 10vh;
+
+ }
+
+ footer a {
+     text-decoration: none;
+     margin: 0 5px;
+     color: var(--text-color);
  }
 
  /*Light purple: #BB86FC; */
