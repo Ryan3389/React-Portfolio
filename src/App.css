@@ -214,7 +214,8 @@
  .projects-section {
      background-color: var(--bg-color);
      color: var(--text-color);
-     height: 90vh;
+     min-height: 100vh;
+     padding-bottom: 50px;
  }
 
  .project-container {
@@ -224,6 +225,7 @@
      margin-bottom: 50px;
  }
 
+
  .project h2 {
      text-align: center;
  }
@@ -231,6 +233,7 @@
  .project {
      width: 60%;
      margin: auto;
+     text-align: center;
  }
 
  .projects-section .container {
@@ -241,6 +244,7 @@
  .project-img {
      width: 135px;
      height: 135px;
+     align-self: center;
  }
 
  /*Light purple: #BB86FC; */
