@@ -211,6 +211,36 @@
      font-size: 1.2rem;
  }
 
+ .projects-section {
+     background-color: var(--bg-color);
+     color: var(--text-color);
+     height: 90vh;
+ }
 
+ .project-container {
+     display: flex;
+     border: 2px solid #00ffffbe;
+     box-shadow: 2px 2px 2px 2px #00ffff34;
+     margin-bottom: 50px;
+ }
+
+ .project h2 {
+     text-align: center;
+ }
+
+ .project {
+     width: 60%;
+     margin: auto;
+ }
+
+ .projects-section .container {
+     width: 70%;
+ }
+
+
+ .project-img {
+     width: 135px;
+     height: 135px;
+ }
 
  /*Light purple: #BB86FC; */

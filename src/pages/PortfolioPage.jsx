@@ -1,6 +1,8 @@
+import PortfolioSection from '../components/UI/Portfolio'
+
 function Portfolio() {
     return (
-        <h1>Portfolio Page</h1>
+        <PortfolioSection />
     )
 }
 
