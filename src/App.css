@@ -25,6 +25,13 @@
 
  nav a {
      color: var(--text-color);
+     transition: 0.3s ease-in-out;
+ }
+
+ nav a:hover {
+     background-color: #3498DB;
+     padding: 5px 10px;
+     border-radius: 5px;
  }
 
  .links-container a {
